@@ -137,3 +137,68 @@ border: 1px solid rgba(230,229,222,0.25);
     transition: transform 0.3s ease-in-out;
     
 }
+/* make it responsive */
+@media only screen and (max-width: 768px) {
+    .weather-icon {
+        margin-top: 8px;
+        height: 120px;
+        margin-bottom: 8px;
+    }
+    .city-search {
+        width: 90%;
+        max-width: 350px;
+        padding: 10px 30px;
+    }
+    .app-name {
+        font-size: 1.8rem;
+    }
+    .App {
+        width: 90%;
+        min-height: 400px;
+        margin: 64px auto;
+        padding-bottom: 24px;
+    }
+    .city-name {
+        font-size: 1.2rem;
+    }
+    .date {
+        font-size: 1rem;
+    }
+    .icon-temp {
+        font-size: 2.5rem;
+    }
+    .deg {
+        font-size: 1.1rem;
+    }
+    .des-wind {
+        font-size: 0.9rem;
+    }
+    .error-message {
+        font-size: 20px;
+    }
+    .Loader {
+        height: 80%;
+    }
+    .Loader>div {
+        margin: 0 auto;
+    }
+    .weather-icon img {
+        width: 80px;
+        height: 80px;
+    }
+    .city-search:focus {
+        width: 90%;
+    }
+    .city-search:hover {
+        transform: scale(1.03);
+        transition: transform 0.3s ease-in-out;
+    }
+    .weather-icon:hover {
+        transform: scale(1.03);
+        transition: transform 0.3s ease-in-out;
+    }
+    .video-background {
+        min-width: 100%;
+        min-height: 100%;
+    }
+}
