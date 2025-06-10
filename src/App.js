@@ -83,7 +83,7 @@ function GfGWeatherApp() {
         <source src={'https://cdn.pixabay.com/video/2022/07/04/123091-726838254_large.mp4'} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <img src="rain.jpg" alt="" className=' weather-icon'/>
+      <img src="raining.jpg" alt="" className=' weather-icon'/>
             <h1 className="app-name">
                  Weather App
             </h1>
