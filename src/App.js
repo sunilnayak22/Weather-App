@@ -73,21 +73,22 @@ function GfGWeatherApp() {
         }
     };
 
-    return (
+return (
+    <>
         <div className="App">
-  <video
-    autoPlay
-    loop
-    muted
-    className="video-background"
-  >
-    <source src={'https://cdn.pixabay.com/video/2022/07/04/123091-726838254_large.mp4'} type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
-  <img src={img} alt="" className='weather-icon'/>
-        <h1 className="app-name">
-             Weather App
-        </h1>
+            <video
+                autoPlay
+                loop
+                muted
+                className="video-background"
+            >
+                <source src={'https://cdn.pixabay.com/video/2022/07/04/123091-726838254_large.mp4'} type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+            <img src={img} alt="" className='weather-icon'/>
+            <h1 className="app-name">
+                Weather App
+            </h1>
             <div className="search-bar">
                 <input
                     type="text"
@@ -142,7 +143,13 @@ function GfGWeatherApp() {
                 </div>
             )}
         </div>
-    );
+        <footer className="footer">
+            <p>
+                © {new Date().getFullYear()} Weather App.Made by sunilnayak.
+            </p>
+        </footer>
+    </>
+);
 }
 
 export default GfGWeatherApp;

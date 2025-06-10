@@ -204,3 +204,14 @@ border: 1px solid rgba(230,229,222,0.25);
         min-height: 100%;
     }
 }
+/* Add to App.css */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: rgba(255,255,255,0.8);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: 1rem;
+}
